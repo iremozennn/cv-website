@@ -1,0 +1,228 @@
+body {
+
+    background-color:rgb(241, 236, 227);
+    
+}
+
+.fantasy{
+    font-family:fantasy;
+}
+
+.gill-sans{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+.rem4{
+    font-size: 4rem;
+}
+.rem2{
+    font-size: 2rem;
+}
+.rem3{
+    font-size: 3rem;
+}
+
+
+header p {
+
+    margin-top: 0px;
+}
+
+.p20{
+    position:relative; 
+    left: 20%;
+}
+
+.p15{
+    position:relative; 
+    left: 15%;
+}
+
+.p22{
+    position:relative; 
+    left: 22%;
+}
+
+.p3{
+    position:relative; 
+    left: 3%;
+}
+.yetenek{
+    position:relative; 
+    left: 35%;
+    margin: 20px;
+    font-size: 20px;
+}
+
+header {
+    position:absolute;
+    width: 70%;
+    left: 8%;
+    background-color: bisque;
+    justify-content:flex;
+    border-radius: 0 0 0 30px;
+
+}
+
+.hd{
+
+    display: block;
+}
+.top0{
+    margin-top: 0px;
+}
+.bottom0{
+    margin-bottom: 0px;
+}
+.iletisim{
+    margin-bottom: 15px;
+}
+.name{
+    margin-bottom: 5px;
+}
+.sett{
+    margin-left: 10%;
+}
+.sett2{
+    margin-left: 10%;
+    
+    display: flex;
+}
+
+.sett2 span{
+    max-width: 630px; 
+    margin-right: 50px;
+    word-wrap: break-word;
+}
+.right-side{
+    background: rgb(214, 190, 159);
+    position: absolute;
+    left: 78%;
+    width: 22%;
+    height: auto;
+    border-radius: 0 0 0 30px;
+    
+}
+
+.hd{
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+.hd.active { 
+	opacity: 1;
+}
+
+.pfp{
+    opacity:0;
+    transition: all 0.2s;
+}
+
+.pfp.active{
+    opacity: 1;
+}
+
+.i1{
+    opacity: 0;
+}
+
+.i1.active{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.i2{
+    opacity: 0;
+}
+
+.i2.active{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.i3{
+    opacity: 0;
+}
+
+.i3.active{
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.k1{
+    opacity: 0;
+}
+
+.k1.active{
+    opacity: 1;
+    transition: all 0.2s;
+}
+.k2{
+    opacity: 0;
+}
+
+.k2.active{
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.k3{
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.k3.active{
+    opacity: 1;
+}
+
+.line{
+    
+    width: 80%;
+    height: 5px;
+    color: black;
+}
+
+.a{
+    margin: 10px ;
+
+}
+
+.icons span{
+    
+    display: block;
+}
+
+.icons{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.icons i {
+    margin-right: 40px;
+}
+
+
+.down{
+    display: inline-block;
+    
+}
+
+.m{
+    margin-top: 15%;
+    margin-bottom: 0px;
+}
+
+.st {
+    width:70%;
+}
+
+.hp{
+    padding: 0 500px 0 0;
+}
+.w5{
+    width: 30%;
+}
